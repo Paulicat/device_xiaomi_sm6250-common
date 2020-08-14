@@ -179,3 +179,6 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
 
 # Inherit proprietary blobs
 -include vendor/xiaomi/sm6250-common/BoardConfigVendor.mk
+
+# Inherit GApps
+-include vendor/gapps/common/BoardConfigVendor.mk
